@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Choices</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #2e2e2e;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            color: #fff;
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .choice {
+            padding: 20px;
+            margin: 10px;
+            border: 3px solid #ffd700; /* Neon golden border */
+            border-radius: 10px;
+            text-align: center;
+            font-size: 1.2em;
+            cursor: pointer;
+            transition: transform 0.3s, background-color 0.3s;
+        }
+
+        .choice:hover {
+            transform: scale(1.1);
+        }
+
+        #food {
+            color: #ff6347; /* Tomato */
+        }
+
+        #cities {
+            color: #1e90ff; /* DodgerBlue */
+        }
+
+        #countries {
+            color: #32cd32; /* LimeGreen */
+        }
+
+        #soccer-players {
+            color: #ff4500; /* OrangeRed */
+        }
+
+        #languages {
+            color: #6a5acd; /* SlateBlue */
+        }
+
+        #cars {
+            color: #ff69b4; /* HotPink */
+        }
+
+        #colors {
+            color: #00ced1; /* DarkTurquoise */
+        }
+
+        #wardrobe {
+            color: #ff8c00; /* DarkOrange */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="choice" id="food">Food</div>
+        <div class="choice" id="cities">Cities</div>
+        <div class="choice" id="countries">Countries</div>
+        <div class="choice" id="soccer-players">Soccer Players</div>
+        <div class="choice" id="languages">Languages</div>
+        <div class="choice" id="cars">Cars</div>
+        <div class="choice" id="colors">Colors</div>
+        <div class="choice" id="wardrobe">Wardrobe</div>
+    </div>
+</body>
+</html>
